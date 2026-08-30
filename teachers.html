@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faculty Directory | The Sunrise Academy Kharan</title>
+  <meta name="description" content="Meet the dedicated teachers and mentors at The Sunrise Academy Kharan, specializing in school subjects, 9th & 10th board preparation, and science education." />
+  <meta property="og:title" content="Faculty Directory | The Sunrise Academy Kharan" />
+  <meta property="og:description" content="Meet the dedicated teachers and mentors at The Sunrise Academy Kharan, specializing in school subjects, 9th & 10th board preparation, and science education." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       1. TOP NAVBAR BRANDING & NAVIGATION
+       ========================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Mark -->
+      <a href="index.html" class="brand-mark" aria-label="The Sunrise Academy Kharan Home">
+        <div class="brand-icon-wrapper" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M4.93 4.93l2.83 2.83M2 12h4M4.93 19.07l2.83-2.83M12 18a6 6 0 0 0 6-6c0-1.66-.67-3.16-1.76-4.24"/>
+            <path d="M22 12h-4M19.07 4.93l-2.83 2.83"/>
+            <path d="M2 18h20"/>
+            <path d="M6 22h12"/>
+          </svg>
+        </div>
+        <div class="brand-text-block">
+          <div class="brand-title">THE SUNRISE <span>ACADEMY</span></div>
+          <div class="brand-location">KHARAN</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav-links" aria-label="Desktop Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#school-programs" class="nav-link">School</a>
+        <a href="index.html#academy-classes" class="nav-link">Academy Classes</a>
+        <a href="teachers.html" class="nav-link active">Faculty</a>
+        <a href="students.html" class="nav-link">Students</a>
+        <a href="results.html" class="nav-link">Results</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Navigation Controls -->
+      <div class="nav-controls">
+        <button class="menu-toggle-btn" id="menu-toggle-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dropdown Navigation Drawer -->
+    <nav class="nav-dropdown" id="nav-dropdown" aria-label="Main Navigation Menu">
+      <a href="index.html" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        Home
+      </a>
+      <a href="index.html#about" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        About & Approach
+      </a>
+      <a href="index.html#school-programs" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+        School Programs
+      </a>
+      <a href="index.html#academy-classes" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+        Academy Classes (9th & 10th)
+      </a>
+      <a href="teachers.html" class="nav-dropdown-item active">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        Faculty Directory
+      </a>
+      <a href="students.html" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        Student Directory
+      </a>
+      <a href="results.html" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+        Results & Gazettes
+      </a>
+      <a href="index.html#contact" class="nav-dropdown-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        Contact Info
+      </a>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+       2. FACULTY HERO HEADER
+       ========================================== -->
+  <section class="section-padding" style="background: var(--navy-dark); color: #FFFFFF; padding-top: 5rem; padding-bottom: 4rem;">
+    <div class="container text-center">
+      <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.75rem; font-weight: 800; line-height: 1.15; margin-bottom: 1rem; color: #FFFFFF;">
+        Our Dedicated <span style="color: var(--gold-accent);">Faculty</span>
+      </h1>
+      <p style="font-size: 1.1rem; color: #E2E8F0; max-width: 680px; margin: 0 auto; line-height: 1.6;">
+        Experienced educators committed to academic excellence, conceptual clarity, and student mentorship at The Sunrise Academy Kharan.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. FACULTY MEMBERS DIRECTORY
+       ========================================== -->
+  <section class="section-padding" style="background: var(--bg-soft);">
+    <div class="container">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h2 style="font-size: 1.5rem; font-weight: 700; color: var(--navy-dark); margin-bottom: 0.25rem;">
+            Faculty Directory (Kharan Campus)
+          </h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">
+            Dedicated teaching staff across Secondary Schooling and Academic Preparation wings.
+          </p>
+        </div>
+      </div>
+
+      <div class="faculty-grid">
+        <!-- Faculty 1 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_male1_1788104198545.jpg" alt="Dr. Ahsan Ahmed" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Dr. Ahsan Ahmed</h3>
+            <div class="faculty-role">Lead Physics Instructor</div>
+            <span class="faculty-tag">Secondary & Board Prep</span>
+            <p class="faculty-desc">
+              Specializes in conceptual physics, mechanics, electrostatics, and board examination question strategies. Focuses on bridging theoretical laws with practical demonstration.
+            </p>
+          </div>
+        </div>
+
+        <!-- Faculty 2 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_female1_1788104223390.jpg" alt="Ms. Hira Khan" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Ms. Hira Khan</h3>
+            <div class="faculty-role">Senior Biology Instructor</div>
+            <span class="faculty-tag">Medical Preparation</span>
+            <p class="faculty-desc">
+              Dedicated educator with deep expertise in human physiology, genetics, and foundational concepts for students preparing for future medical entrance tests.
+            </p>
+          </div>
+        </div>
+
+        <!-- Faculty 3 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_male2_1788104244496.jpg" alt="Mr. Saad Ahmed" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Mr. Saad Ahmed</h3>
+            <div class="faculty-role">Mathematics Specialist</div>
+            <span class="faculty-tag">Algebra & Geometry</span>
+            <p class="faculty-desc">
+              Passionate mathematician dedicated to building student confidence in algebra, trigonometry, matrices, and geometric proofs through regular step-by-step problem-solving.
+            </p>
+          </div>
+        </div>
+
+        <!-- Faculty 4 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_female2_1788104265562.jpg" alt="Ms. Ayesha Noor" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Ms. Ayesha Noor</h3>
+            <div class="faculty-role">Chemistry Instructor</div>
+            <span class="faculty-tag">Chemical Sciences</span>
+            <p class="faculty-desc">
+              Emphasizes atomic structure, balancing chemical equations, periodic trends, and laboratory safety. Encourages active inquiry and systematic notebook habits.
+            </p>
+          </div>
+        </div>
+
+        <!-- Faculty 5 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_male1_1788104198545.jpg" alt="Mr. Tariq Baloch" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Mr. Tariq Baloch</h3>
+            <div class="faculty-role">General Science & Foundations</div>
+            <span class="faculty-tag">Middle School Wing</span>
+            <p class="faculty-desc">
+              Focuses on cultivating early curiosity in natural sciences, scientific method, and everyday technology for primary and middle school students.
+            </p>
+          </div>
+        </div>
+
+        <!-- Faculty 6 -->
+        <div class="faculty-card">
+          <div class="faculty-image-box">
+            <img src="assets/images/sunrise_teacher_female1_1788104223390.jpg" alt="Ms. Fatima Zahra" referrerpolicy="no-referrer" />
+          </div>
+          <div class="faculty-info">
+            <h3 class="faculty-name">Ms. Fatima Zahra</h3>
+            <div class="faculty-role">English & Communication</div>
+            <span class="faculty-tag">Language & Grammar</span>
+            <p class="faculty-desc">
+              Guides students through reading comprehension, grammar mechanics, creative writing, and vocal communication skills to instill strong expression.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Informational Card -->
+      <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 2rem; margin-top: 3rem; text-align: center; box-shadow: var(--shadow-sm);">
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--navy-dark); margin-bottom: 0.5rem;">
+          Interested in Joining or Meeting Our Faculty?
+        </h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 1.5rem auto; font-size: 0.95rem;">
+          For questions regarding faculty consultation, parent-teacher interaction hours, or teaching opportunities at The Sunrise Academy Kharan, please contact our administrative desk.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="tel:03058003079" class="btn btn-call" title="Call The Sunrise Academy Kharan">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>Call</span>
+          </a>
+          <a href="https://wa.me/923342266425?text=Hello%20The%20Sunrise%20Academy%20Kharan%2C%20I%20would%20like%20to%20inquire%20about%20faculty%20and%20classes." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" title="WhatsApp The Sunrise Academy Kharan">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. FOOTER SECTION
+       ========================================== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand-title">THE SUNRISE <span>ACADEMY</span></div>
+          <div class="footer-brand-loc">Kharan, Balochistan, Pakistan</div>
+          <p class="footer-brand-desc">
+            The Sunrise Academy Kharan is committed to providing quality school education, strong academic foundations, and focused examination preparation for students in Kharan.
+          </p>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Kharan, Balochistan, Pakistan</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="index.html#about" class="footer-link">About School</a>
+            <a href="index.html#school-programs" class="footer-link">School Programs</a>
+            <a href="index.html#academy-classes" class="footer-link">Academy Classes</a>
+            <a href="teachers.html" class="footer-link">Faculty</a>
+            <a href="students.html" class="footer-link">Students</a>
+            <a href="results.html" class="footer-link">Results</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Direct Contact</h4>
+          <div class="footer-links" style="gap: 0.85rem;">
+            <a href="tel:03058003079" class="btn btn-call" style="justify-content: flex-start;" title="Call The Sunrise Academy Kharan">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Call</span>
+            </a>
+            <a href="https://wa.me/923342266425?text=Hello%20The%20Sunrise%20Academy%20Kharan%2C%20I%20would%20like%20to%20get%20information%20about%20admissions." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="justify-content: flex-start;" title="WhatsApp The Sunrise Academy Kharan">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://www.facebook.com/share/19nUEihRJ7/" target="_blank" rel="noopener noreferrer" class="btn btn-facebook" style="justify-content: flex-start;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Follow Us on Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>The Sunrise Academy Kharan. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>

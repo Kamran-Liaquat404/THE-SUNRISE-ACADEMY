@@ -1,6 +1,0 @@
-{
-  "name": "The Sunrise Academy Kharan",
-  "description": "The Sunrise Academy Kharan provides quality school education, academic guidance and focused subject preparation for students in Kharan, Balochistan.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

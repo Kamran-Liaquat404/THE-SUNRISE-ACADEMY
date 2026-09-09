@@ -1,0 +1,6 @@
+{
+  "name": "The Sunrise Academy Kharan",
+  "description": "The Sunrise Academy in Kharan, Pakistan provides quality education in English Language, IELTS preparation, Grammar, and Science Subjects (Biology, Physics, Chemistry) and Mathematics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
